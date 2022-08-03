@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign In to your acct </title>
+     <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+    <body>
+      <div class="container">
+        <div class="login-form">
+          <div class="container">
+          <h1>Sign in</h1>
+          <form class="signin-form" action="#" method="post"> 
+              <input type="username" name="Username"  placeholder="Username..." id="Username" style="background:none;" required> 
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <!-- <small>Error message</small> -->
+           <br>
+           <input type="password" name="password"  placeholder="password..." id="password" style="background:none;" required> 
+          </form>  <a href="landing.html"><button type="submit" onclick="validate()">Login</button></a>
+        </div> 
+        <a href="password.html" class="key"><small><em>forgot password?</em></small></a>
+      </div>
+
+        <script src="login.js"></script>    
+    </body>
+</html>
